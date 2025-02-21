@@ -1,0 +1,10 @@
+{
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "name": "@leaf/parse-think",
+  "version": "0.1.0",
+  "exports": "./index.ts",
+  "license": "GPL-3.0"
+}
