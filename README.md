@@ -22,7 +22,7 @@ const res = await ai.chat.completions.create({
     { role: 'user', content: 'What is the result of 2 + 2 * 2?' },
   ],
 })
-const { result, think } = parse(res.choices[0].message)
-console.log('Result:', result)
+const { content, think } = parse(res.choices[0].message)
+console.log('Content:', content)
 console.log('Think:', think)
 ```
